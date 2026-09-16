@@ -12,7 +12,7 @@ class Test2
             int t = scanner.nextInt();
             
             
-            while (t-- > 0) {
+            while (t>0) {
                 int x = scanner.nextInt();
                 int y = scanner.nextInt();
                 
@@ -22,6 +22,7 @@ class Test2
                 
             
                 System.out.println(maxBags);
+                T--;
             }
         }
         
